@@ -33,6 +33,7 @@ requirements:
     - r-base
   run:
     - r-base
+    - libgfortran-ng
     - {{native}}gcc-libs         # [win]
 
 test:
