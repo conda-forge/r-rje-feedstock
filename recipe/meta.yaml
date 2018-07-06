@@ -15,7 +15,7 @@ source:
 
 build:
   merge_build_host: True  # [win]
-  number: 0
+  number: 1
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -33,6 +33,7 @@ requirements:
     - r-base
   run:
     - r-base
+    - libgfortran-ng             # [not win]
     - {{native}}gcc-libs         # [win]
 
 test:
