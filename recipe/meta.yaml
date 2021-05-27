@@ -43,7 +43,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=rje
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: A series of functions in some way considered useful to the author.  These include functions for subsetting tables and generating indices for arrays, conditioning and intervening in probability distributions, generating combinations and more...
   license_family: GPL2
   license_file:
