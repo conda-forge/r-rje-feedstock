@@ -1,4 +1,4 @@
-{% set version = "1.12.0" %}
+{% set version = "1.12.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rje_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rje/rje_{{ version }}.tar.gz
-  sha256: 7fd7ca31bfe66c543c5c7382bbbdc10a16eabd6dfb1fc5b6c2a942d335da7e7a
+  sha256: 10dcb0f1a6a617940f59fda1e989fc1124fe737dceb922a27b3ee95bece2411d
 
 build:
   merge_build_host: true  # [win]
